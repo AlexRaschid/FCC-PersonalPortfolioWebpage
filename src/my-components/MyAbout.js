@@ -7,8 +7,8 @@ function MyAbout() {
     return (
         <Row id="MyAbout">
           
-          <Col xs={4}>
-            <Image fluid roundedCircle src={pfp}></Image>
+          <Col className="d-flex  align-items-center justify-content-center" xs={4}>
+            <Image  fluid roundedCircle src={pfp}></Image>
           </Col>
           <Col id="aboutDescription">
             <Row >
@@ -21,17 +21,17 @@ function MyAbout() {
             <ListGroup className="justify-content-center" horizontal>
               <ListGroup.Item>
                 <Button id="profile-link" target="_blank" rel="noopener noreferrer" href="https://github.com/AlexRaschid">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </Button>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Button target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alexander-raschid/">
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
                 </Button>
               </ListGroup.Item>
               <ListGroup.Item>
                 <Button target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/alexraschid">
-                <i class="fa-brands fa-free-code-camp"></i>
+                <i className="fa-brands fa-free-code-camp"></i>
                 </Button>
               </ListGroup.Item>
             </ListGroup>
