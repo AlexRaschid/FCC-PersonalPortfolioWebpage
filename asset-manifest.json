@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FCC-PersonalPortfolioWebpage/static/css/main.6c8a9297.css",
-    "main.js": "/FCC-PersonalPortfolioWebpage/static/js/main.992f566c.js",
+    "main.css": "/FCC-PersonalPortfolioWebpage/static/css/main.f49d368c.css",
+    "main.js": "/FCC-PersonalPortfolioWebpage/static/js/main.c16bdf82.js",
     "static/js/787.dbb97c97.chunk.js": "/FCC-PersonalPortfolioWebpage/static/js/787.dbb97c97.chunk.js",
     "static/media/logo.svg": "/FCC-PersonalPortfolioWebpage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/FCC-PersonalPortfolioWebpage/index.html",
-    "main.6c8a9297.css.map": "/FCC-PersonalPortfolioWebpage/static/css/main.6c8a9297.css.map",
-    "main.992f566c.js.map": "/FCC-PersonalPortfolioWebpage/static/js/main.992f566c.js.map",
+    "main.f49d368c.css.map": "/FCC-PersonalPortfolioWebpage/static/css/main.f49d368c.css.map",
+    "main.c16bdf82.js.map": "/FCC-PersonalPortfolioWebpage/static/js/main.c16bdf82.js.map",
     "787.dbb97c97.chunk.js.map": "/FCC-PersonalPortfolioWebpage/static/js/787.dbb97c97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c8a9297.css",
-    "static/js/main.992f566c.js"
+    "static/css/main.f49d368c.css",
+    "static/js/main.c16bdf82.js"
   ]
 }
