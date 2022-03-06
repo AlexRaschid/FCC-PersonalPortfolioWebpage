@@ -10,12 +10,13 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-      <Container>
+      <Container fluid>
         <MyNavbar />
         <MyWelcome />
         <MyProjects />
         <MyAbout />
       </Container>
+
   );
 }
 
