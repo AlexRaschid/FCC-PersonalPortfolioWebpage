@@ -28,7 +28,7 @@ function MyProjects() {
   const createProject = (project) => {
     return (
       <Card key={project.id}>
-              
+               
       <Card.Body className="">
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
