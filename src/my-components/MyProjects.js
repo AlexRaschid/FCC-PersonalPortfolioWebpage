@@ -11,7 +11,7 @@ function MyProjects() {
           date: "March 2022",
           title: "Jokinator9000",
           link: "https://alexraschid.github.io/FCC-RandomQuoteMachine/",
-          description: `With more time, I would try to better filter the jokes. This is supposed to print out IT based jokes. Right now its possible distasteful, nsfw, or non-pc to be thrown into the mix based on the API call. I had tried to filter it out with modifiers on the URL from where i got the key, but they dont seem to do anything.`
+          description: `A quick app made to get a laugh. With more time, I would try to better filter the jokes. This is supposed to print out IT based jokes. Right now its possible distasteful, nsfw, or non-pc to be thrown into the mix based on the API call. I had tried to filter it out with modifiers on the URL from where i got the key, but they dont seem to do anything.`
         },
         { 
           id: "WordScript",
@@ -34,16 +34,16 @@ function MyProjects() {
     let image = `https://aerportfoliobucket.s3.amazonaws.com/${uniqueKey}.jpg`
     
     return (
-      <Card key={uniqueKey} id={"project"+project.id}>
+      <Card key={uniqueKey} id={"project"+project.id} className="project-tile">
                
       <Card.Body>
         <Card.Title className="text-center">{project.title}</Card.Title>
         <Row>
 
           <Col xs={4}>
-            <ListGroup >
-              <ListGroup.Item className="dateBorder text-center">{project.date}</ListGroup.Item>
-            </ListGroup>
+            <Row>
+              <p className="text-center">{project.date}</p>
+            </Row>
             <div className="text-center align-self-center align-middle">
               <Button href={project.link} target="_blank" className="projectButton " variant="primary">Project Link</Button>
             </div>
