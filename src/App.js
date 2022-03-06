@@ -11,7 +11,7 @@ import { Container } from 'react-bootstrap';
 function App() {
   return (
       <Container fluid>
-        <MyNavbar />
+        <MyNavbar /> 
         <MyWelcome />
         <MyProjects />
         <MyAbout />
