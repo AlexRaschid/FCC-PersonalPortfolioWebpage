@@ -34,7 +34,7 @@ function MyProjects() {
     let image = `https://aerportfoliobucket.s3.amazonaws.com/${uniqueKey}.jpg`
     
     return (
-      <Card key={uniqueKey} id={"project"+project.id} className="project-tile">
+      <Card key={uniqueKey} id={"project"+project.id} className="project-tile v">
                
       <Card.Body>
         <Card.Title className="text-center">{project.title}</Card.Title>
@@ -50,13 +50,22 @@ function MyProjects() {
           </Col>
           
           <Col className="text-left">
-          {project.description}
+            {project.description}
           </Col>
           
         </Row>
         
       </Card.Body>
-      <Card.Img className="" variant="top" src={image} alt="image here" />
+      
+        <Card.Body >
+          <Row className="d-flex justify-content-md-center">
+            <Col md="auto" >
+              <Card.Img className="projectImage" variant="top" src={image} alt="image here" />
+            </Col>
+          </Row>
+        </Card.Body>
+        
+      
     </Card>
 
     )
