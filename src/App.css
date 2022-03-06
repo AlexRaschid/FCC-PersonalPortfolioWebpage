@@ -1,8 +1,3 @@
-div.col-10{
-    border-color: red;
-    border-style: solid;
-}
-
 .navbar.transparent.navbar-inverse .navbar-inner {
     background-color: rgba(0,0,0,0.4);
  }
@@ -30,3 +25,18 @@ div.col-10{
     border-radius: 0rem!important;
 }
 
+#projectWordScript{
+    background-color: #ccffcc;
+}
+
+#MyAbout{
+    background-color: #ffcccc;
+}
+
+#projectJokinator9000{
+    background-color: #ccccff;
+}
+
+#projectAOTS{
+    background-color: #ffffcc!important;
+}
