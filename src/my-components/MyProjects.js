@@ -45,7 +45,9 @@ function MyProjects() {
               <p className="text-center">{project.date}</p>
             </Row>
             <div className="text-center align-self-center align-middle">
-              <Button href={project.link} target="_blank" className="projectButton " variant="primary">Project Link</Button>
+              <Button href={project.link} target="_blank" className="projectButton " variant="primary">
+                <i className="fas fa-external-link-alt"></i> Project
+              </Button>
             </div>
           </Col>
           
