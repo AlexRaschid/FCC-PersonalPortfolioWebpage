@@ -26,17 +26,27 @@
 }
 
 #projectWordScript{
-    background-color: #ccffcc;
+    background-color: #dcfeff;
 }
 
 #MyAbout{
-    background-color: #ffcccc;
+    background-color: #dcfeff;
 }
 
 #projectJokinator9000{
-    background-color: #ccccff;
+    background-color: #fff6dc;
 }
 
 #projectAOTS{
-    background-color: #ffffcc!important;
+    background-color: #fff6dc!important;
+}
+
+.projectButton{
+    background-color: #e0adff!important;
+    border-color: #e0adff!important;
+}
+
+div.list-group-item{
+    border: 0px;
+    background-color: #dcfeff;
 }
