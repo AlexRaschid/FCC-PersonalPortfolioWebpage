@@ -6,7 +6,9 @@ function MyAbout() {
   let pfp = "https://aerportfoliobucket.s3.amazonaws.com/MyMainPic.jpg";
     return (
         <Row id="MyAbout">
-          
+          <Row>
+            
+          </Row>
           <Col className="d-flex  align-items-center justify-content-center" xs={4}>
             <Image  fluid roundedCircle src={pfp}></Image>
           </Col>
@@ -20,26 +22,24 @@ function MyAbout() {
             <Row>
             <ListGroup className="justify-content-center" horizontal>
               <ListGroup.Item>
-                <Button id="profile-link" target="_blank" rel="noopener noreferrer" href="https://github.com/AlexRaschid">
+                <Button className="projectButton" id="profile-link" target="_blank" rel="noopener noreferrer" href="https://github.com/AlexRaschid">
                   <i className="fa-brands fa-github"></i>
                 </Button>
               </ListGroup.Item>
               <ListGroup.Item>
-                <Button target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alexander-raschid/">
+                <Button className="projectButton" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alexander-raschid/">
                 <i className="fa-brands fa-linkedin-in"></i>
                 </Button>
               </ListGroup.Item>
               <ListGroup.Item>
-                <Button target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/alexraschid">
+                <Button className="projectButton" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/alexraschid">
                 <i className="fa-brands fa-free-code-camp"></i>
                 </Button>
               </ListGroup.Item>
             </ListGroup>
             </Row>
-            <Row>
-              
-            </Row>
           </Col>
+          
         </Row>
     );
   }
